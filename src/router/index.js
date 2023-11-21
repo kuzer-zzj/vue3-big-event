@@ -23,7 +23,7 @@ const router = createRouter({
           component: () => import('@/views/user/UserProfile.vue')
         },
         {
-          path: '/user/userAvatar',
+          path: '/user/avatar',
           component: () => import('@/views/user/UserAvatar.vue')
         },
         {
